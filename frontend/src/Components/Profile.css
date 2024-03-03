@@ -1,0 +1,41 @@
+.dashboard {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-info,
+.portfolio {
+    flex: 1;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.portfolio {
+    margin-left: 20px;
+}
+
+.portfolio-chart {
+    height: 300px;
+    /* Adjust height as needed */
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+}

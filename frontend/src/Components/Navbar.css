@@ -1,0 +1,46 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+    font-size: 1.2rem;
+    /* Increased font size */
+}
+
+.nav-links li a:hover {
+    color: #ff9900;
+}
+
+/* Media query for responsive design */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        margin-top: 20px;
+    }
+
+    .nav-links li {
+        margin-bottom: 10px;
+    }
+}

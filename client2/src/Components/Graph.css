@@ -1,0 +1,23 @@
+.graph-container {
+    background-color: rgb(6, 6, 6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Make the container full height of the viewport */
+}
+
+.graph-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stock-chart,
+.pie-chart {
+    max-width: 50%;
+    max-height: 50%;
+    /* Ensure the charts are responsive */
+    margin-bottom: 20px;
+    /* Add some spacing between the charts */
+}
